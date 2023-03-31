@@ -4,31 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
-    <!-- Este div es la caja de la imagen de perfil-->
-   
-    <div>
-        <img src="./foto.jpg" width="150px" height="150px" alt="">
-    </div>
+    <!--La etiqueta section es para demilitar una sección-->
 
-    <!--Segunda caja-->
-    <div>
-        <h1>Jairo Romero</h1>
-        <p>Web Developer</p>
+    <section class="profile">
+        <div class="container-avatar">
+            <img src="./assets/imagen.jpg" class="avatar" alt="Imagen de perfil">
+            <h1>Jairo Romero</h1>
+        </div>
         
-    </div>
-</section>
-    <!--Tercer caja-->
-    <div class="links">
-        <a class="instagram">Instagram</a>
-        <a class="facebook">Facebook</a>
-        <a class="linkedin">Linkedin</a>
-        <a class="twitter">Twitter</a>
-    </div>
+    </section>
+    
+    <section class="about-me">
+        <h2>About Me!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae voluptas,
+             impedit veniam similique unde earum assumenda quo corporis! 
+             Accusamus tempore pariatur ullam itaque exercitationem cum rem 
+             officiis ex asperiores. Ipsam.
+        </p>
+    </section>
 
+    <section class="network">
+        <div class="facebook">
+            <img src="./assets/fb.jpg" alt="facebook logo">
+            <h3>Facebook</h3>
+            <p>Waka waka hey hey chimina chimina</p>
+        </div>
+        <div class="instagram">
+            <img src="./assets/instagram.jpg" alt="instagram logo">
+            <h3>Instagram</h3>
+            <p>Allá en la fuente había un chorrito</p>
+        </div>
+        <div class="twitter">
+            <img src="./assets/twitter.png" alt="twitter logo">
+            <h3>Instagram</h3>
+            <p>Agua en tu refri, agua en tu refri</p>
+        </div>
+    </section>
 </body>
 </html>
